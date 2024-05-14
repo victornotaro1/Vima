@@ -21,8 +21,17 @@ let num = ref(0)
           <router-Link class="nav-link" aria-current="page" to="/about">Page</router-Link>
         </li>
         <li class="nav-item">
-          <router-Link class="nav-link" aria-current="page" to="/pedro">Carrinho</router-Link>
+          <router-Link class="nav-link" aria-current="page" to="/cart">
+            <span class="material-symbols-outlined">shopping_cart</span>
+          </router-Link>
         </li>
+        
+        <li class="nav-item" >
+          <router-Link class="nav-link" aria-current="page" to="/about">
+            <span class="material-symbols-outlined">account_circle</span>
+          </router-Link>
+        </li>
+      
       </ul>
     </div>
   </div>
@@ -66,6 +75,7 @@ footer{
 .logo span{
     color: #fff;
 }
+
 
 
 </style>
